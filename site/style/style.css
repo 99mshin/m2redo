@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+.row {
+	width: 100%;
+}
+
+header {
+	text-align: center;
+	margin: 40px;
+	font-size: 25px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+span {
+	background-color: red;
+	border: 1px solid black;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	text-align: center;
+	width: 200px;
+	float: right;
+	position: relative;
+}
+
+.title_frozen {
+	background-color: red;
+	color: white;
+}
+.title_moana {
+	background-color: yellow;
+	color: blue;
+}
+.title_aladin {
+	background-color: green;
+	color: black;
+}
+
+.section {
+	margin: 5px 5px 5px 5px;
+	border: 2px solid black;
+	background-color: #90ee90;
+	position: relative;
+	text-align: justify;
+}
+
+p {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	margin: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+/*large device*/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+/*medium device*/
+
+@media (min-width: 768px) and (max-width:991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+}
